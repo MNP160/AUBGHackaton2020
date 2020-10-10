@@ -14,6 +14,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using Microsoft.OpenApi.Models;
+using EcoHippiesBackend.Interfaces;
+using EcoHippiesBackend.Services;
 
 namespace EcoHippiesBackend
 {
@@ -36,7 +38,7 @@ namespace EcoHippiesBackend
             services.AddCors();
             services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "HackatonAPI", Version = "v1" }));
             services.AddDbContext<ApiContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ApiContext")));
-
+            services.AddScoped<IUserService, UserService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
