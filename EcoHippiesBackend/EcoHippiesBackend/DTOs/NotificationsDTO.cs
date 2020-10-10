@@ -7,5 +7,8 @@ namespace EcoHippiesBackend.DTOs
 {
     public class NotificationsDTO
     {
+        public string Message { get; set; }
+
+        public string PathToImage { get; set; }
     }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoHippiesBackend", "EcoHippiesBackend\EcoHippiesBackend.csproj", "{398D83E2-3B55-468E-8FBB-514102E4D76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoHippiesBackend", "EcoHippiesBackend\EcoHippiesBackend.csproj", "{398D83E2-3B55-468E-8FBB-514102E4D76C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerceFrontend", "..\EcoHippiesFrontEndMVC\eCommerceFrontend.csproj", "{CDABA301-D3C1-4458-AAB3-381ED7380082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{398D83E2-3B55-468E-8FBB-514102E4D76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398D83E2-3B55-468E-8FBB-514102E4D76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398D83E2-3B55-468E-8FBB-514102E4D76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDABA301-D3C1-4458-AAB3-381ED7380082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDABA301-D3C1-4458-AAB3-381ED7380082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDABA301-D3C1-4458-AAB3-381ED7380082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDABA301-D3C1-4458-AAB3-381ED7380082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

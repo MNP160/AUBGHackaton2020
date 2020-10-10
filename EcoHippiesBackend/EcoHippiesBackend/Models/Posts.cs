@@ -15,5 +15,7 @@ namespace EcoHippiesBackend.Models
         public string Title { get; set; }
         public int LocationId { get; set; }
         public virtual Locations Location { get; set; }
+
+        public virtual ICollection<Comments> Comments { get; set; }
     }
 }

@@ -15,6 +15,22 @@ namespace EcoHippiesBackend.Utility
             CreateMap<Users, UsersDTO>();
             CreateMap<Users, RegisterModel>();
 
+            CreateMap<Comments, CommentsDTO>();
+            CreateMap<CommentsDTO, Comments>();
+
+            CreateMap<Locations, LocationsDTO>();
+            CreateMap<LocationsDTO, Locations>();
+
+            CreateMap<Notifications, NotificationsDTO>();
+            CreateMap<NotificationsDTO, Notifications>();
+
+            CreateMap<Posts, PostsDTO>();
+            CreateMap<PostsDTO, Posts>();
+
+            CreateMap<Replies, RepliesDTO>();
+            CreateMap<RepliesDTO, Replies>();
+
+
         }
           
     }

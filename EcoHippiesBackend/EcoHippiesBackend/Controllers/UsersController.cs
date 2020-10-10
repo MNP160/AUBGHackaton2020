@@ -36,7 +36,7 @@ namespace EcoHippiesBackend.Controllers
                 return BadRequest("User does not exist");
             }
 
-            return Ok();
+            return Ok(new {Email= user.Email});
                                 
         }
 

@@ -7,5 +7,9 @@ namespace EcoHippiesBackend.DTOs
 {
     public class CommentsDTO
     {
+        public string Message { get; set; }
+        public DateTime CreatedOn { get; set; }
+
+        public virtual ICollection<RepliesDTO> Replies { get; set; }
     }
 }
