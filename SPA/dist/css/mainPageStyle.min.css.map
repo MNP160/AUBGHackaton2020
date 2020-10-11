@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAFb,GAAG,CAGT",
+    "sources": [
+        "../../mainPageStyle.scss"
+    ],
+    "names": [],
+    "file": "mainPageStyle.min.css"
+}
